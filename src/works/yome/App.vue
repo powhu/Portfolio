@@ -18,7 +18,7 @@ export default {
         icon: require("@/image/icon/yome.jpg"),
         description: `
         アニメキャラクターを壁紙にしたいけど見られたらなんか恥ずかしいです。そのためこのアプリを開発しました。<br>
-        Live Photoの仕様を利用して、カバーの静止画と動くの動画を自由に組み合わせる事で、特殊なLive wallpaperが作成できます。<br>
+        Live Photoの仕様を利用して、カバーの静止画と動くの動画を自由に組み合わせる事で、特殊なLive Photoが作成できます。<br>
         普段は見せる壁紙、3D Touchすると大好きなキャラクター壁紙に変化します。<br>
         `,
         copyright: "2018 Copyright ShenWen Yang",

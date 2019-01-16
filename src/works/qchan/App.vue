@@ -25,7 +25,7 @@ export default {
         copyright: "2018 Copyright ShenWen Yang",
         appStoreURL:
           "https://itunes.apple.com/jp/app/q%E3%81%A1%E3%82%83%E3%82%93/id1130228883?mt=8",
-        previous: "",
+        previous: "note.html",
         next: "cafe.html",
         previews: [
           {

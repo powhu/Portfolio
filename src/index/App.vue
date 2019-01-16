@@ -29,10 +29,10 @@
       </template>
 
       <p slot="about">アップル好きすぎてエンジニアになった楊勝文と申します。台湾人です。
-        <br>iOS開発経験8年、個人開発アプリは累計70万ダウンロードです。携わったアプリは30個超えてます。
+        <br>iOS開発経験8年、個人開発アプリは累計70万ダウンロードです。携わったアプリは40個超えてます。
         <br>以前日本に三年間働きました。前回ちょっと個人理由で帰国してしまいましたが、今度はもう一度日本で挑戦していきたいと思っています！
         <br>デザイン出身で、UI/UXにとってもこだわります。強みにもあって、企画から要件定義、設計デザイン、開発まで一人で完結できます。
-        <br>日本文化大好きです。アニメ漫画はもちろん、バラエティにも大好きです。「月曜日から夜更かし」、「世界の果てまでイッテQ!」大好きです！
+        <br>日本文化大好きです。アニメ漫画はもちろん、バラエティにも大好きです。「月曜日から夜更かし」、「世界の果てまでイッテQ!」いつも見てます。
       </p>
 
       <template slot="timeline">
@@ -95,16 +95,41 @@ export default {
           link: "qchan.html"
         },
         {
-          title: "DNS POWER CAFE オーダーアプリ",
-          detail: "世界一パワーが入るカフェ",
+          title: "DNS POWER CAFE",
+          detail: "オーダーアプリ",
           icon: require("@/image/icon/cafe.jpg"),
           link: "cafe.html"
         },
         {
           title: "やは嫁",
-          detail: "Live Wallpaper作成アプリ",
+          detail: "Live Wallpaper作成するアプリ",
           icon: require("@/image/icon/yome.jpg"),
           link: "yome.html"
+        },
+        {
+          title: "ココイル",
+          detail: "今いる場所をみんなで共有",
+          icon: require("@/image/icon/cocoil.jpg"),
+          link: "cocoil.html"
+        },
+        {
+          title: "スゴイ便利帳",
+          detail: "役に立つ知識、ツールいっぱい収録するアプリ",
+          icon: require("@/image/icon/note.jpg"),
+          link: "note.html"
+        },
+        {
+          title: "TKCalendar",
+          detail:
+            "「君の名は」滝と三つ葉が使った日記アプリのアニメーションをUIKitで再現する",
+          icon: require("@/image/icon/tkcalendar.jpg"),
+          link: "https://github.com/powhu/TKCalendarView"
+        },
+        {
+          title: "LSButton",
+          detail: "一時流行ったロングシャドウをUIKitで再現する",
+          icon: require("@/image/icon/lsbutton.jpg"),
+          link: "https://github.com/powhu/LSButton"
         }
       ],
       skills: {

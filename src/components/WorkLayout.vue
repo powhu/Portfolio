@@ -24,7 +24,13 @@
 
     <wide-box is-background-transparent title="Screenshot">
       <div class="screenshotSection row">
-        <div class="col-4 col-sm-4 col-md-2" v-for="(screenshot,index) in screenshots" :key="index">
+        <div
+          class="col-4 col-sm-4 col-md-2"
+          v-for="(screenshot,index) in screenshots"
+          :key="index"
+          data-aos="fade-up"
+          :data-aos-delay="50 * index"
+        >
           <a data-fancybox="gallery" :href="screenshot.raw">
             <img :src="screenshot.thumbnail">
           </a>
@@ -84,6 +90,8 @@ import Rellax from "rellax";
 import $ from "jquery";
 import fancybox from "@fancyapps/fancybox";
 import "@fancyapps/fancybox/dist/jquery.fancybox.css";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 export default {
   name: "WorkLayout",

@@ -9,13 +9,7 @@
         </div>
       </div>
       <div class="col-sm-6 my-auto" :class="{'order-sm-first' : index%2!=0}">
-        <terminal-box
-          :is-show-control="false"
-          class="mb"
-          data-aos-once="true"
-          data-aos="fade-up"
-          data-aos-offset="50"
-        >
+        <terminal-box :is-show-control="false" class="mb" data-aos="fade-up">
           <h4>{{item.title}}</h4>
           <p class="des">{{item.description}}</p>
         </terminal-box>
@@ -34,7 +28,7 @@ export default {
   props: ["items"],
   components: { TerminalBox },
   mounted: function() {
-    AOS.init();
+    AOS.init({ once: true });
   }
 };
 </script>

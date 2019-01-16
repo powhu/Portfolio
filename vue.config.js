@@ -19,6 +19,12 @@ module.exports = {
 		yome: {
 			entry: "src/works/yome/main.js"
 		},
+		cocoil: {
+			entry: "src/works/cocoil/main.js"
+		},
+		note: {
+			entry: "src/works/note/main.js"
+		},
 	},
 	configureWebpack: {
 		plugins: [

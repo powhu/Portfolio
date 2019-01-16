@@ -20,16 +20,16 @@ export default {
   width: 56px;
   margin: 0 12px 8px 0;
   border-radius: 10px;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 500;
-  font-family: "Menlo", "Helvetica Neue";
+  font-family: "Helvetica Neue";
 
   &[class~="solid"] {
-    border: 1px solid $mainTextColor;
+    border: 1.5px solid $mainTextColor;
   }
 
   &[class~="dashed"] {
-    border: 1px dashed $mainTextColor;
+    border: 1.5px dashed $mainTextColor;
   }
 }
 </style>

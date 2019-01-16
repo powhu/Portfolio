@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container verticalCenter" style="min-height:100vh;">
+    <div class="container verticalCenter p-0" style="min-height:100vh;">
       <terminal-box title="合言葉">
         <p>入力してください</p>
         <div class="boxContainter mb-5" :class="responseAnimation">

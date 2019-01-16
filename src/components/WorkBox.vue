@@ -1,6 +1,6 @@
 <template>
-  <div class="work">
-    <a :href="link">
+  <div class="work" data-aos="fade-up">
+    <a :href="link" :target="link.indexOf('http') !== -1 ? '_blank' : '_self'">
       <div class="workCard">
         <img :src="icon" class="icon">
         <h4>{{title}}</h4>
@@ -11,9 +11,15 @@
 </template>
 
 <script>
+import "aos/dist/aos.css";
+import AOS from "aos";
+
 export default {
   name: "WorkBox",
-  props: ["icon", "title", "detail", "link"]
+  props: ["icon", "title", "detail", "link"],
+  mounted: function() {
+    AOS.init({ once: true });
+  }
 };
 </script>
 
@@ -54,7 +60,7 @@ export default {
     border-radius: 25px;
     margin: 0;
     margin-right: 20px;
-    border: 0.5px solid #e4e4e4;
+    border: 1px solid #e4e4e4;
     float: left;
     display: block;
 

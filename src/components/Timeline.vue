@@ -9,7 +9,7 @@
           data-aos-offset="50"
           class="timelineDate"
         >{{item.date}}</div>
-        <div data-aos-once="true" data-aos="fade-up" data-aos-offset="50">
+        <div data-aos="fade-up">
           <h5>{{item.title}}</h5>
           <div v-if="item.detail">{{item.detail}}</div>
         </div>
@@ -29,7 +29,7 @@ export default {
     items: Array
   },
   mounted: function() {
-    AOS.init();
+    AOS.init({ once: true });
   }
 };
 </script>
