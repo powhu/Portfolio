@@ -21,7 +21,7 @@ export default {
         App Store Top Paid App 一位獲得し数多くのメディアに紹介されました。
         `,
         copyright: "2018 Copyright ShenWen Yang",
-        appStoreURL: " https://itunes.apple.com/jp/app/id518553541?mt=8",
+        appStoreURL: "https://itunes.apple.com/jp/app/id518553541?mt=8",
         previous: "cocoil.html",
         next: "qchan.html",
         previews: [

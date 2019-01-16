@@ -22,8 +22,7 @@ export default {
         普段は見せる壁紙、3D Touchすると大好きなキャラクター壁紙に変化します。<br>
         `,
         copyright: "2018 Copyright ShenWen Yang",
-        appStoreURL:
-          "https://itunes.apple.com/jp/app/%E3%82%84%E3%81%AF%E5%AB%81%E3%83%BC%E3%82%A2%E3%83%8B%E3%83%A1%E5%A3%81%E7%B4%99%E4%BD%9C%E6%88%90/id1205848268?mt=8",
+        appStoreURL: "https://itunes.apple.com/jp/app/id1205848268?mt=8",
         previous: "cafe.html",
         next: "cocoil.html",
         previews: [
