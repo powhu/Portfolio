@@ -102,7 +102,7 @@ export default {
         },
         {
           title: "やは嫁",
-          detail: "Live Wallpaper作成するアプリ",
+          detail: "Live Wallpaperを作成するアプリ",
           icon: require("@/image/icon/yome.jpg"),
           link: "yome.html"
         },
@@ -127,7 +127,7 @@ export default {
         },
         {
           title: "LSButton",
-          detail: "一時流行ったロングシャドウをUIKitで再現する",
+          detail: "ロングシャドウをUIKitで再現する",
           icon: require("@/image/icon/lsbutton.jpg"),
           link: "https://github.com/powhu/LSButton"
         }

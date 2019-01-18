@@ -18,7 +18,7 @@ export default {
         icon: require("@/image/icon/cafe.jpg"),
         description: `
         スポーツ用品販売会社が経営しているカフェのオーダーアプリです。このカフェの特徴は注文がとても細かい、養素バランスを重視して、グラム単位で注文が可能です。本来はお客さんが紙で注文内容を書いて、店員がPOSに入力するという方法ですが、とても手間がかかります。注文をアプリ化してよりいいサービスを提供しようと始めた案件です。<br>
-        要件定義から開発まで一人でアプリを完成しました。
+        要件定義からUI設計、開発、POS連携まで一人でを完成しました。
         `,
         copyright: "2018 Copyright ShenWen Yang",
         appStoreURL:
@@ -27,10 +27,16 @@ export default {
         next: "yome.html",
         previews: [
           {
-            video: require("@/video/cafe1.mov"),
+            video: require("@/video/cafe2.mov"),
             title: "ゴリゴリ動く",
             description:
-              "派手なUIでインパクトを与えて、「世界一パワーが入るカフェ」の理念を伝える。注文は自由に組み合わせる、栄養バランスもすぐ確認できる。"
+              "派手なUIでインパクトを与えて、「世界一パワーが入るカフェ」の理念を伝える。"
+          },
+          {
+            video: require("@/video/cafe1.mov"),
+            title: "自由にオーダーする",
+            description:
+              "注文は自由に組み合わせる、栄養成分とバランスにもすぐ確認できる。"
           }
         ],
         screenshots: [
