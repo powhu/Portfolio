@@ -108,7 +108,7 @@ export default {
         },
         {
           title: "ココイル",
-          detail: "今いる場所をみんなで共有",
+          detail: "今いる場所をみんなで共有するアプリ",
           icon: require("@/image/icon/cocoil.jpg"),
           link: "cocoil.html"
         },

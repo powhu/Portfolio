@@ -86,7 +86,7 @@ export default {
           },
           {
             title: "Technology",
-            tags: ["Push Notification", "Parse"]
+            tags: ["Push Notification", "Parse", "SQLite"]
           },
           {
             title: "Localization",
