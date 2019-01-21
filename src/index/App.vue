@@ -130,6 +130,12 @@ export default {
           detail: "ロングシャドウをUIKitで再現する",
           icon: require("@/image/icon/lsbutton.jpg"),
           link: "https://github.com/powhu/LSButton"
+        },
+        {
+          title: " My Pixiv",
+          detail: "趣味で絵を描いてる",
+          icon: require("@/image/icon/pixiv.jpg"),
+          link: "https://www.pixiv.net/member.php?id=129770"
         }
       ],
       skills: {
