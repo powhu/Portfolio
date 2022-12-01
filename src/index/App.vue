@@ -28,8 +28,8 @@
         </div>
       </template>
 
-      <p slot="about">アップル好きすぎてエンジニアになった楊勝文と申します。台湾人人です。今日本住んでいます。
-        <br>iOS開発経験{{ yearsForIos }}年。個人開発アプリは累計330万ダウンロード突破、月アクティブユーザは20万人に超えです。今まで携わったアプリは40個超えてます。
+      <p slot="about">アップル好きすぎてエンジニアになった楊勝文と申します。台湾人人です。今日本働いてます。
+        <br>iOS開発経験{{ yearsForIos }}年。個人開発アプリは累計330万ダウンロード突破、月アクティブユーザは20万人に超えです。今まで携わったアプリは40個超えてます。Android開発経験2年。Kotlin Multiplatform開発経験1年半。
         <br>大学はデザイン出身で、UI/UX分野には特に自信があります。
         <br>長年の経験から、開発スピードに特に自信があります。0→1の開発は得意です。
         <br>お客さんとの初回ミーティングで要望を収集後、一人で要件を定義し、UI/UXを設計し、Nativeでモックアップを開発して、次のミーティングでお客さんに実機で操作できるアプリを展示し、その場で契約を取った経験があります。
@@ -90,6 +90,24 @@ export default {
       yearsForIos: new Date().getFullYear() - 2011,
       works: [
         {
+          title: "Yome2x",
+          detail: "Waifu2xをcoreMLに移植。評価件数2萬超え、平均評価★4.6。",
+          icon: require("@/image/icon/yome2x.jpg"),
+          link: "https://apps.apple.com/us/app/yome2x-photo-enhance/id1511677178"
+        },
+        {
+          title: "Yidget",
+          detail: "世界中で大人気なWidgetアプリ。ダウンロード数60萬突破。",
+          icon: require("@/image/icon/yidget.jpg"),
+          link: "https://apps.apple.com/us/app/yidget/id1532848312"
+        },
+        {
+          title: "やは嫁",
+          detail: "Live Wallpaperを作成するアプリ",
+          icon: require("@/image/icon/yome.jpg"),
+          link: "yome.html"
+        },
+        {
           title: "Qちゃん",
           detail: "猫の気を引くために開発したアプリ",
           icon: require("@/image/icon/qchan.jpg"),
@@ -100,12 +118,6 @@ export default {
           detail: "オーダーアプリ",
           icon: require("@/image/icon/cafe.jpg"),
           link: "cafe.html"
-        },
-        {
-          title: "やは嫁",
-          detail: "Live Wallpaperを作成するアプリ",
-          icon: require("@/image/icon/yome.jpg"),
-          link: "yome.html"
         },
         {
           title: "ココイル",
@@ -131,12 +143,6 @@ export default {
           detail: "ロングシャドウをUIKitで再現する",
           icon: require("@/image/icon/lsbutton.jpg"),
           link: "https://github.com/powhu/LSButton"
-        },
-        {
-          title: " My Pixiv",
-          detail: "趣味で絵を描いてる",
-          icon: require("@/image/icon/pixiv.jpg"),
-          link: "https://www.pixiv.net/member.php?id=129770"
         }
       ],
       skills: {
