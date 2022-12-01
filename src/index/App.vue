@@ -29,7 +29,7 @@
       </template>
 
       <p slot="about">アップル好きすぎてエンジニアになった楊勝文と申します。台湾人人です。今日本住んでいます。
-        <br>iOS開発経験{{ yearsForIos }}年。個人開発アプリは累計80万ダウンロード突破、月アクティブユーザは5万人に超えです。今まで携わったアプリは40個超えてます。
+        <br>iOS開発経験{{ yearsForIos }}年。個人開発アプリは累計330万ダウンロード突破、月アクティブユーザは20万人に超えです。今まで携わったアプリは40個超えてます。
         <br>大学はデザイン出身で、UI/UX分野には特に自信があります。
         <br>長年の経験から、開発スピードに特に自信があります。0→1の開発は得意です。
         <br>お客さんとの初回ミーティングで要望を収集後、一人で要件を定義し、UI/UXを設計し、Nativeでモックアップを開発して、次のミーティングでお客さんに実機で操作できるアプリを展示し、その場で契約を取った経験があります。
@@ -141,7 +141,7 @@ export default {
       ],
       skills: {
         language: [
-          { title: "Mobile", skills: ["Swift", "Objective-C"] },
+          { title: "Mobile", skills: ["Swift", "Objective-C", "Kotlin"] },
           { title: "Web", skills: ["HTML", "CSS", "JavaScript"] },
           { title: "Backend", skills: ["PHP"] }
         ],
@@ -162,7 +162,9 @@ export default {
               "Parse",
               "Firebase",
               "Fabric",
-              "CocoaPods"
+              "CocoaPods",
+              "Kotlin Multiplatform",
+              "Jetpack compose"
             ]
           },
           {
@@ -232,6 +234,11 @@ export default {
           title: "株式会社チームラボ",
           detail: "スマホチーム",
           date: "2019/4~2020/4"
+        },
+        {
+          title: "株式会社カクシン",
+          detail: "スマホチーム",
+          date: "2020/8~"
         }
       ]
     };
